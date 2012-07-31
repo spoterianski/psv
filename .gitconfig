@@ -1,0 +1,28 @@
+[user]
+    name = Sergey Poterianski
+    email = spoterianski@gmail.com
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    blame = auto
+
+[alias]
+    co = checkout
+    ci = commit
+    st = status -suno
+    br = branch
+    psh = push origin master
+    pl = pull origin master
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+
+[branch]
+    autosetuprebase = always
+
+[branch "master"]
+    rebase = true

@@ -1,0 +1,21 @@
+# Environment stuff
+.subversion/
+.svn/
+
+# Vim pathogen
+#.vim/autoload/pathogen.vim
+
+# Mac OS specific
+.DS_Store
+
+# Useless files
+*.pyc
+*.egg-info/
+*genfiles/
+*.d
+
+# Static and dynamic libraries
+*.so
+*.so.*
+*.o
+*.a
