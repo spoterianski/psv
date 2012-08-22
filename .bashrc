@@ -53,7 +53,7 @@ else
     GREEN=""
     YELLOW=""
 fi
-export PS1="$RED\u@\h:$NORMAL\w$YELLOW\$(__git_ps1)$GREEN\$$NORMAL "
+export PS1="$RED\u@\h:$NORMAL\W$YELLOW\$(__git_ps1)$GREEN\$$NORMAL "
 
 
 if [[ "$platform" == "Darwin" ]]; then
