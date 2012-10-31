@@ -25,7 +25,7 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 # usefull aliases for ls
-alias ll='ls -l'
+alias ll='ls -la'
 alias la='ls -A'
 alias l='ls -CF'
 
